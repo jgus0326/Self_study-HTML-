@@ -137,3 +137,12 @@
 표 구성 요소: 행과 열 그리고 셀로 이루어짐   
    
 표 만드는 &lt;table&gt;,&lt;caption&gt;태그   
+-표의 시작과 끝을 알려주는 &lt;table&gt;과 &lt;/table&gt; 태그 표시하고 그 사이에 표와 관련된 태그 모두 넣음   
+-표 제목 붙이고 싶으면 &lt;table&gt; 태그 바로 아랫줄에 &lt;caption&gt;태그 사용   
+-&lt;caption&gt;태그는 생략 가능   
+기본형   
+```
+<table>
+   <caption>표 제목</caption>
+</table>
+```
